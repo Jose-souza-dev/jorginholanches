@@ -1,1 +1,1 @@
-alert('Click no lace para ver seu conteúdo');
+alert('Click no lanche para ver seu conteúdo');
