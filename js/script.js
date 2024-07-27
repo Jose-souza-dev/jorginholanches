@@ -1,1 +1,0 @@
-alert('Click no lanche para ver seu conteúdo');
