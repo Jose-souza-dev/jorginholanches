@@ -1,8 +1,8 @@
 @media(max-width:400px) {
     *{margin: 0;padding: 0;}
     body{
-        background: rgb(253,127,32);
-        background: linear-gradient(31deg, rgba(253,127,32,1) -30%, rgba(255,255,255,1) 60%);
+        /*background: rgb(253,127,32);
+        background: linear-gradient(31deg, rgba(253,127,32,1) -30%, rgba(255,255,255,1) 60%);*/
     }
     main{
         width: 100%;
