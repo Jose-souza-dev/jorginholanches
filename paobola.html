@@ -12,24 +12,58 @@
             <img src="img/banner.png" alt="" id="baner">
         </header>
         <h1 class="pbola">Pão bola</h1>
-       
+
         <div class="lanche">
+        <!--Primeiro item-->
+
+        <!--AMERICANO-->
             <div class="escolhelanche">
-                <input type="button" value="AMERICANO 7,00" class="btnescolhe" id="americano">
+                <input type="button" class="btnescolhe"  onclick="toggleDiv('div1')" value="AMERICANO R$ 7,00">
             </div>
-            <div class="cardapio">
-                <div class="fechar">
-                    <p id="close">X</p>
-                </div>
+            <div class="cardapio" id="div1">
                 <p class="ingrediente">
                     Pão, carne de hambúrguer, presunto, queijo, alface, tomate, maionese e catchup.
                 </p>
                 <p>Copiar código</p>
                 <div id="cod" class="cod">AM001</div>
+        <!----------------------------------------------------------------------------------------------------------->
+            </div><!--Fim da cardápio-->
+            <hr>
+            <!--X-FRANGO-->
+
+            <div class="escolhelanche">
+                <input type="button" class="btnescolhe"  onclick="toggleDiv('div2')" value="X-FRANGO R$ 8,00">
             </div>
+            <div class="cardapio" id="div2">
+                <p class="ingrediente">
+                    Pão, carne de hambúrguer, queijo, presunto, frango desfiado, alface, tomate, maionese e
+catchup.
+                </p>
+                <p>Copiar código</p>
+                <div id="cod" class="cod">XF002</div>
+            </div>
+
+            <hr>
+
+            <!--X-CALABRESA-->
+            <div class="escolhelanche">
+                <input type="button" class="btnescolhe"  onclick="toggleDiv('div3')" value="X-CALABREZA R$ 8,00">
+            </div>
+            <div class="cardapio" id="div3">
+                <p class="ingrediente">
+                    Pão, carne de hambúrguer, queijo presunto,
+                    calabresa, alface, tomate maionese e
+                    catchup. 
+                </p>
+                <p>Copiar código</p>
+                <div id="cod" class="cod">XC003</div>
+            </div>
+
+            <hr>
+
+
         </div>
-
-
+        <p class="versao">0.0.01</p>
     </main>
     <script src="js/script.js"></script>
 </body>
