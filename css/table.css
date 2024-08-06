@@ -1,0 +1,21 @@
+@media(max-width:400px) {
+    table{
+        width: 95%;
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    tr{
+        background-color: #ffffff;
+        color:#ff5b0f;
+        margin: 6x 0;
+    }
+
+    .alinha{
+        text-align: end;
+    }
+
+    .sucos{
+        color: black;
+    }
+}
