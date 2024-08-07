@@ -71,6 +71,7 @@
         bottom: 0;
         text-align: center;
         color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     /*Títulos e parágrafos*/
@@ -131,8 +132,7 @@
         border: none;
         margin-bottom: 8px;
         background-color: #FDB750;
-        font-weight: bolder;
-        font-size: 16px;
+        font-size: 14px;
     }
     .btnescolhe:hover{
         background-color: red;
@@ -164,7 +164,7 @@
         font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
         color:#fff;
-        margin: 30px 0 20px 0;
+        margin: 20px 0 10px 0;
     }
 
     div.lanche #cod{
