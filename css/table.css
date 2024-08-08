@@ -6,7 +6,7 @@
     }
     tr{
         background-color: #ffffff;
-        color:#646464;
+        color:#4b4b4b;
         margin: 6x 0;
     }
     
@@ -15,7 +15,7 @@
         padding: 5px 10px;
     }
     tr:nth-child(2n+2) {
-        background: #ccc;
+        background: #ebebeb;
     }
 
     /* listrando as trs */
