@@ -6,3 +6,4 @@ function toggleDiv(divId) {
         div.style.display = "none";
     }
 }
+
