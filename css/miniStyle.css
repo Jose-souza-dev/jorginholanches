@@ -112,10 +112,20 @@
     }
     /*-----------------------------------------------------*/
 
+    div.produtos{
+        width: 90%;
+        height: 120px;
+        display: flex;
+        background-color: #ffb44a;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 40px 0 0 0;
+    }
+
     div.escolha{
         width: 227px;
         height: 197px;
-        background-color: #ff4800;
+        background-color: red;
         border-radius: 4px;
         margin: 40px 0 0 0;
         display: flex;
