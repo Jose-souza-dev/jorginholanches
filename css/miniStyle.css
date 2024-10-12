@@ -87,10 +87,10 @@
     /*Títulos e parágrafos*/
     .principal{
         font-family: 'Bebas Neue';
-        font-size: 16px;
+        font-size: 20px;
         color: #FC2E20;
         text-align: center;
-        margin: 20px 0  10px 0;
+        margin: 10px 0  10px 0;
     }
 
     .pbola{
@@ -127,7 +127,7 @@
         height: 197px;
         background-color: red;
         border-radius: 4px;
-        margin: 40px 0 0 0;
+        margin: 20px 0 0 0;
         display: flex;
         flex-direction: column;
         align-items: center;
