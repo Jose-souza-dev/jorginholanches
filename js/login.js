@@ -11,7 +11,7 @@
             }
 
             // Simula validação (substitua pelo seu processo real de autenticação)
-            if (usuario === "admin" && senha === "1234") {
+            if (usuario === "admin" && senha === "j2l2") {
                 window.location.href ="plano.html";
                 // Redirecionar ou outra ação
                 console.log("Usuário autenticado com sucesso.");
