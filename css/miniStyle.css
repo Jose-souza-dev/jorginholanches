@@ -96,6 +96,14 @@ a#acessoadm{
     font-weight: bold;
 }
 
+.back{
+    color:#fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
 .navegue ul li a:hover{
     text-decoration: none;
     color: #000000;
@@ -205,7 +213,7 @@ a#acessoadm{
         border-radius: 4px;
         color: #fff;
         text-decoration: none;
-        margin-top: 20px;
+        margin-top: 100px;
     }
 
     div.lanche{
