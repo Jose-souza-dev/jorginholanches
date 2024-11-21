@@ -2,6 +2,7 @@
     *{margin: 0;padding: 0;}
     body{
         background: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
         /*background: linear-gradient(31deg, rgba(253,127,32,1) -30%, rgba(255,255,255,1) 60%);*/
     }
     main.container{
@@ -11,6 +12,31 @@
         flex-direction: column;
         align-items: center;
     }
+    .container-adm{
+        position:absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background: #ff0000;
+        color: #fff;
+        padding: 0 10px;
+    }
+
+    /*FORMULÁRIO DE LOGIN*/
+    form.adm{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    /*-------------------------------------------*/
+
     #cabecalho{
         width: 100%;
         height: 112px;
@@ -60,6 +86,16 @@
    text-align: center;
 }
 
+a#acessoadm{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px 10px; 
+    border-radius: 4px;
+    font-weight: bold;
+}
+
 .navegue ul li a:hover{
     text-decoration: none;
     color: #000000;
@@ -73,18 +109,32 @@
     #baner{
         border-radius: 0 8px 0 8px;
     }
+/*esse banner aqui é da index*/
+
     .rodape{
         width: 100%;
-        height: 50px;
+        height: 60px;
         background: #FC2E20;
         padding: 10px 0 10px 0;
         bottom: 0;
         text-align: center;
         color: #fff;
         font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input{
+        width: 60%;
+        height: 40px;
+        border: none;
+        border-radius: 6px;
     }
     
-
+    #ffood{
+        width: 50%;
+    }
     /*Títulos e parágrafos*/
     .principal{
         font-family: 'Bebas Neue';
@@ -149,6 +199,15 @@
         font-weight: bold;
     }
 
+    #contratar{
+        background-color: #ff0000;
+        padding: 10px;
+        border-radius: 4px;
+        color: #fff;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+
     div.lanche{
         width: 100%;
         height: 600px;
@@ -203,9 +262,6 @@
         
     }
 
-
-
-
     div.cardapio p{
         color:#fff;
         font-family: Arial, Helvetica, sans-serif;
@@ -240,6 +296,54 @@
     p.versao{
         text-align: center;
     }
+
+    p{
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #licenca{
+        width: 40%;
+        border: none;
+        border-radius: 2px;
+        padding: 10px 0;
+    }
+    .esconder{display: none;}
+
+
+    .beneficios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+
+    /*AREA DO CONTADOR DE LICENSA*/
+
+    .countdown-container{
+        width: 90%;
+        display: flex;
+        flex-direction:row;
+        /*flex-wrap: wrap;*/
+        gap:20px;
+    }
+    
+    .countdown-el{
+        width: 20%;
+        padding: 10px;
+        text-align: center;
+    }
+    .text{
+        font-weight: bold;
+        font-size: 16PX;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#ff0000;
+    }
+
+
+
     
 }/* fim da media quer*/
 
