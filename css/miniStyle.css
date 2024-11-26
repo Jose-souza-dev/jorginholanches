@@ -127,11 +127,10 @@
     #food{
         width: 95%;
         height: 160px;
-        background-color: #fdff82;
         background-image: url("../img/banner.gif");
         background-size: 100%;
         background-repeat: no-repeat;
-        margin: 10px 10px 10px 10px;
+        margin: 10px 10px 30px 10px;
         display: flex;
         flex-direction: row;
         gap: 20px;
