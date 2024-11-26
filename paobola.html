@@ -7,26 +7,30 @@
     <title>Pão bola</title>
 </head>
 <body>
-    <main class="container">
-        <header id="cabecalho">
-            <img src="img/banner.png" alt="" id="baner">
-            <a href="https://wa.me/55991265804">
-                <img src="img/whatsapp.svg" alt="whatsapp" id="wts" target="blank">
-            </a>
-        </header>
+    <main>
 
-        <div class="navegue">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="paobola.html">Pão bola</a></li>
-                <li><a href="paoarabe.html">Pão árabe</a></li>
-                <li><a href="bebidas.html">Bebidas</a></li>
-                <li><a href="batatas.html">Salgados</a></li>
-            </ul>
-        </div>
+            <header id="paobola">
+                <div class="navegue">
+                    <ul>
+                        <li><a href="index.html" class="pbola">Início</a></li>
+                        <li><a href="paobola.html" class="pbola">Pão-bola</a></li>
+                        <li><a href="paoarabe.html" class="pbola">Pão-árabe</a></li>
+                        <li><a href="bebidas.html" class="pbola">Bebidas</a></li>
+                        <li><a href="batatas.html" class="pbola">Salgados</a></li>
+                    </ul>
+                    <br>
+                </div>
+                <div id="whats-header">
+                    <a href="bebidas.html">
+                        <img src="img/whatsapp.svg" alt="" id="zap">
+                    </a>
+                </div>
+            </header>
 
 
-        <h1 class="pbola">PÃO BOLA</h1>
+
+
+        <h1 class="nomepao">PÃO BOLA</h1>
 
         <div class="lanche">
         <!--Primeiro item-->
@@ -35,20 +39,20 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div1')" value="AMERICANO R$ 7,00">
             </div>
-            <div class="cardapio" id="div1">
+            <div class="cardapio esconde" id="div1" >
                 <p class="ingrediente">
                     Pão, carne de hambúrguer, presunto, queijo, alface, tomate, maionese e catchup.
                 </p>
 
         <!----------------------------------------------------------------------------------------------------------->
             </div><!--Fim da cardápio-->
-            <hr>
+    
             <!--X-FRANGO-->
 
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div2')" value="X-FRANGO R$ 8,00">
             </div>
-            <div class="cardapio" id="div2">
+            <div class="cardapio esconde" id="div2">
                 <p class="ingrediente">
                     Pão, carne de hambúrguer, queijo, presunto, frango desfiado, alface, tomate, maionese e
 catchup.
@@ -61,7 +65,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div3')" value="X-CALABREZA R$ 8,00">
             </div>
-            <div class="cardapio" id="div3">
+            <div class="cardapio esconde" id="div3">
                 <p class="ingrediente">
                     Pão, carne de hambúrguer, queijo presunto,
                     calabresa, alface, tomate maionese e
@@ -75,7 +79,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div4')" value="X-RABICÓ R$ 13,00">
             </div>
-            <div class="cardapio" id="div4">
+            <div class="cardapio esconde" id="div4">
                 <p class="ingrediente">
                     Pão, carne de hambúrguer, queijo, presunto, 
                     ovo, calabresa, frango desfiado, catupiry, 
@@ -90,7 +94,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div5')" value="X-BURGUER R$ 8,00">
             </div>
-            <div class="cardapio" id="div5">
+            <div class="cardapio esconde" id="div5">
                 <p class="ingrediente">
                     Pão carne de hambúrguer, queijo, presunto, 
                     ovo, alface, tomate, maionese e catchup.
@@ -103,7 +107,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div6')" value="CHICO MAGO R$ 5,00">
             </div>
-            <div class="cardapio" id="div6">
+            <div class="cardapio esconde" id="div6">
                 <p class="ingrediente">
                     Pão, carne de hambúrguer, queijo 
                     maionese e catchup.
@@ -116,7 +120,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div7')" value="CANELA SECA R$ 5,00">
             </div>
-            <div class="cardapio" id="div7">
+            <div class="cardapio esconde" id="div7">
                 <p class="ingrediente">
                     Queijo, calabresa, maionese e catchup.
                 </p>
@@ -128,7 +132,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div8')" value="FRANGO MAGO R$ 5,00">
             </div>
-            <div class="cardapio" id="div8">
+            <div class="cardapio esconde" id="div8">
                 <p class="ingrediente">
                     Pão, frango desfiado, queijo maionese 
                     catchup.
@@ -141,7 +145,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div9')" value="MISTO R$ 5,00">
             </div>
-            <div class="cardapio" id="div9">
+            <div class="cardapio esconde" id="div9">
                 <p class="ingrediente">
                     Pão, queijo e presunto maionese catchup.
                 </p>
@@ -153,7 +157,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div10')" value="X-BACON R$ 10,00">
             </div>
-            <div class="cardapio" id="div10">
+            <div class="cardapio esconde" id="div10">
                 <p class="ingrediente">
                     Carne de hambúrguer, bacon, queijo, presunto, 
                     tomate, alface, catchup e maionese.
@@ -166,7 +170,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div11')" value="X-BACON CALABRESA R$ 12,00">
             </div>
-            <div class="cardapio" id="div11">
+            <div class="cardapio esconde" id="div11">
                 <p class="ingrediente">
                     Carne de hambúrguer, bacon, calabresa, 
                     queijo, presunto, tomate, alface , catchup e 
@@ -181,7 +185,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div12')" value="X-BACON FRANGO R$ 12,00">
             </div>
-            <div class="cardapio" id="div12">
+            <div class="cardapio esconde" id="div12">
                 <p class="ingrediente">
                     Carne de hambúrguer, bacon, frango desfiado, 
                     queijo, presunto, tomate, alface, catchup e 
@@ -196,7 +200,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div13')" value="X-BACON BURGUER R$ 12,00">
             </div>
-            <div class="cardapio" id="div13">
+            <div class="cardapio esconde" id="div13">
                 <p class="ingrediente">
                     Carne de hambúrguer, bacon, ovo, queijo, 
                     presunto, alface, tomate, catchup, maionese.
@@ -209,7 +213,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div14')" value="X-BACON R$ 10,00">
             </div>
-            <div class="cardapio" id="div14">
+            <div class="cardapio esconde" id="div14">
                 <p class="ingrediente">
                     Pão, queijo, presunto, bacon, alface, tomate maionese, catchup. 
                 </p>
@@ -221,7 +225,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div15')" value="X-BACON CALABRESA R$ 12,00">
             </div>
-            <div class="cardapio" id="div15">
+            <div class="cardapio esconde" id="div15">
                 <p class="ingrediente">
                     Pão, carne de hambúrguer, queijo, presunto, bacon, calabresa, alface, tomate, maionese catchup.  
                 </p>
@@ -233,7 +237,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div16')" value="X-BACON FRANGO R$ 12,00">
             </div>
-            <div class="cardapio" id="div16">
+            <div class="cardapio esconde" id="div16">
                 <p class="ingrediente">
                     Pão, carne de hamburguer, queijo, presunto, bacon, frango, alface, tomate, maionese e catchup.  
                 </p>
@@ -245,7 +249,7 @@ catchup.
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div17')" value="X-BACON BURGER R$ 12,00">
             </div>
-            <div class="cardapio" id="div17">
+            <div class="cardapio esconde" id="div17">
                 <p class="ingrediente">
                     Pão, carne de hamburguer, queijo, presunto, bacon, ovo,  alface, tomate, maionese e catchup.  
                 </p>
@@ -256,7 +260,7 @@ catchup.
             <br><br>
             <div class="rodape">
                 Versão 1.0.14.4
-                <p>Todos os direitos reservados a  	&copy;josesouza</p>
+                <p>Todos os direitos reservados a  	&copy;FloatingFood</p>
             </div>
 
         </div>

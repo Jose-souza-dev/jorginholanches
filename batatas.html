@@ -8,25 +8,26 @@
 </head>
 <body>
     <main class="container">
-        <header id="cabecalho">
-            <img src="img/banner.png" alt="" id="baner">
-            <a href="https://wa.me/5585991265804">
-                <img src="img/whatsapp.svg" alt="whatsapp" id="wts" target="blank">
-            </a>
+        <header id="paobola">
+            <div class="navegue">
+                <ul>
+                    <li><a href="index.html" class="pbola">Início</a></li>
+                    <li><a href="paobola.html" class="pbola">Pão-bola</a></li>
+                    <li><a href="paoarabe.html" class="pbola">Pão-árabe</a></li>
+                    <li><a href="bebidas.html" class="pbola">Bebidas</a></li>
+                    <li><a href="batatas.html" class="pbola">Salgados</a></li>
+                </ul>
+                <br>
+            </div>
+            <div id="whats-header">
+                <a href="bebidas.html">
+                    <img src="img/whatsapp.svg" alt="" id="zap">
+                </a>
+            </div>
         </header>
 
-        <div class="navegue">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="paobola.html">Pão bola</a></li>
-                <li><a href="paoarabe.html">Pão árabe</a></li>
-                <li><a href="bebidas.html">Bebidas</a></li>
-                <li><a href="batatas.html">Salgados</a></li>
-            </ul>
-        </div>
 
-
-        <h1 class="pbola">BATATAS</h1>
+        <h1 class="nomepao">BATATAS</h1>
 
         <div class="lanche">
         <!--Primeiro item-->
@@ -35,7 +36,7 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div1')" value="BATATA FRITA R$ 10,00">
             </div>
-            <div class="cardapio-batata" id="div1">
+            <div class="cardapio esconde" id="div1">
                 <p class="ingrediente">
                     Batata, maionese e catchup.
                 </p>
@@ -45,26 +46,28 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div2')" value="BATATA FRITA  RECHADA R$ 15,00">
             </div>
-            <div class="cardapio-batata" id="div2">
+            <div class="cardapio esconde" id="div2">
                 <p class="ingrediente">
                     Frango, calabresa, queijo cheddar e catupiry.
                 </p>
             </div>
 
         
-            <h1 class="pbola">PASTEL</h1>
+            <h1 class="nomepao">PASTEL</h1>
         <!--Pastelão 10,00-->
 
         <div class="escolhelanche">
             <input type="button" class="btnescolhe"  onclick="toggleDiv('div3')" value="PASTELÃO R$ 10,00">
         </div>
-        <div class="cardapio-batata" id="div3">
+        <div class="cardapio esconde" id="div3">
             <p class="ingrediente">
                 Queijo, presunto, frango, calabresa, catupiry, cheddar, maionese e catchup. 
             </p>
         </div>
             <br><br>
         </div>
+        <img src="img/chefe.jpg" alt="">
+        <br>
         <div class="rodape">
             Versão 1.0.14.4
             <p>Todos os direitos reservados a  	&copy;josesouza</p>

@@ -1,354 +1,401 @@
 @media(max-width:400px) {
     *{margin: 0;padding: 0;}
-    body{
-        background: rgb(255, 255, 255);
-        font-family: Arial, Helvetica, sans-serif;
-        /*background: linear-gradient(31deg, rgba(253,127,32,1) -30%, rgba(255,255,255,1) 60%);*/
-    }
-    main.container{
+    main{
+        position: absolute;
         width: 100%;
         height: 100vh;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-items: center;
     }
-    .container-adm{
-        position:absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+
+    /*área de header da index*/
+
+    header{
         width: 100%;
-        height: 100vh;
-        background: #ff0000;
-        color: #fff;
-        padding: 0 10px;
-    }
-
-    /*FORMULÁRIO DE LOGIN*/
-    form.adm{
-        width: 90%;
+        height: 70px;
+        background-color: #ffffff;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-
-    /*-------------------------------------------*/
-
-    #cabecalho{
-        width: 100%;
-        height: 112px;
-        background: blanchedalmond;
-        background-image: url('../img/banner.png');
-    }
-
-
-    #wts{
-        position: relative;
-        width: 10%;
-        margin-left: 350px;
-        margin-top: 40px;
-        transition: transform 1s ease-in-out;
-    }
-
-/*ÁREA DO MENU DA PAGINA DOS HAMBURGUERS*/
-
-.navegue{
-    width: 100%;
-    height: 5vh;
-    background-color: #FC2E20;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -4px;
-    padding: 20px 0;
-    font-family: Arial, Helvetica, sans-serif;
-    border-top: 2px solid #ffd000;
-}
-.navegue ul{
-    display: flex;
-    flex-direction: row;
-    gap: 14px;
-}
-
-.navegue ul li{
-    list-style: none;
-    background-color: #FC2E20;
-}
-
-
-
-.navegue ul li a{
-   text-decoration: none;
-   color: #ffffff;
-   text-align: center;
-}
-
-a#acessoadm{
-    text-decoration: none;
-    color: #000000;
-    text-align: center;
-    background-color: #ffffff;
-    padding: 5px 10px; 
-    border-radius: 4px;
-    font-weight: bold;
-}
-
-.back{
-    color:#fff;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    padding: 10px 15px;
-    text-decoration: none;
-}
-
-.navegue ul li a:hover{
-    text-decoration: none;
-    color: #000000;
-    text-align: center;
- }
-
-
-
-
-/*------------------------------------------------------------------------------------*/
-    #baner{
-        border-radius: 0 8px 0 8px;
-    }
-/*esse banner aqui é da index*/
-
-    .rodape{
-        width: 100%;
-        height: 60px;
-        background: #FC2E20;
-        padding: 10px 0 10px 0;
-        bottom: 0;
-        text-align: center;
-        color: #fff;
-        font-family: Arial, Helvetica, sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    input{
-        width: 60%;
-        height: 40px;
-        border: none;
-        border-radius: 6px;
-    }
-    
-    #ffood{
-        width: 50%;
-    }
-    /*Títulos e parágrafos*/
-    .principal{
-        font-family: 'Bebas Neue';
-        font-size: 20px;
-        color: #FC2E20;
-        text-align: center;
-        margin: 10px 0  10px 0;
-    }
-
-    .pbola{
-        font-family: 'Bebas Neue';
-        font-size: 16px;
-        color: #FC2E20;
-        text-align: center;
-        text-decoration: underline;
-        margin: 40px 0 30px 0;
-    }
-    .aviso{
-        width: 80%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        color: #000000;
-        margin-top: 30px;
-        text-align: justify;
-
-    }
-    /*-----------------------------------------------------*/
-
-    div.produtos{
-        width: 90%;
-        height: 120px;
-        display: flex;
-        background-color: #ffb44a;
         flex-direction: row;
         justify-content: space-between;
-        margin: 40px 0 0 0;
+        align-items: center;
+        padding-top: 10px;
+    }
+    div#logo-header{
+        width: 60px;
+        height: 60px;
+        background-color: #ffffff;
+        background-image: url("../img/logo.png");
+        background-size: 97%;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50px;
+        margin-left: 5px;
+    }
+    
+
+    div#whats-header{
+        width: 50px;
+        height: 50px;
+        background-color: #ffffff;
+        /*background-image: url("../img/whatsapp.svg");*/
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+        margin-top: -5px;
+        margin-right: 15px;
     }
 
-    div.escolha{
-        width: 227px;
-        height: 220px;
-        background-color: red;
-        border-radius: 4px;
-        margin: 20px 0 0 0;
+    /**/
+    img#zap{
+        width: 50px;
+        height: 50px;
+    }
+
+    header, h1{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    header, h4{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*---------------------------------*/
+
+    div#navegacao{
+        width: 95%;
+        height: 80px;
+        background-color: #ffffff;
+        margin: 40px 10px 10px 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .itens-navegacao{
+        width: 25%;
+        height: 80px;
+        background-color: #ff0017;
+        border-radius: 6px;
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
     }
-    div.escolha a{
-        width: 80%;
-        height: 19px;
-        background-color: rgb(255, 255, 255);
-        color:#000000;
-        text-decoration: none;
+
+    .pagina{
         text-align: center;
-        margin: 10px 0;
-        padding: 10px 0;
-        border-radius: 6px;
-        font-family: 'Arial';
+        color: #fff;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .pagina:hover{
+        text-align: center;
+        color: #fff;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: underline;
+        padding: 10px;
+    }
+
+
+    div#texto{
+        width: 95%;
+        height: 80px;
+        background-color: #ffffff;
+        margin: 20px 10px 10px 10px;
+    }
+
+    #texto, p{
         font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p.chamada{
+        color: #ff0017;
+        text-align: center;
+        margin: 20px 0 0 0;
         font-weight: bold;
     }
 
-    #contratar{
-        background-color: #ff0000;
-        padding: 10px;
-        border-radius: 4px;
-        color: #fff;
-        text-decoration: none;
-        margin-top: 100px;
+    #food{
+        width: 95%;
+        height: 160px;
+        background-color: #fdff82;
+        background-image: url("../img/banner.gif");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: 10px 10px 10px 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
     }
 
-    div.lanche{
+    #img-food-burger{
+        position: absolute;
+        width: 165px;
+        height: 90px;
+        margin: 60px 20px 0 30px;
+    }
+
+    #img-food-coca{
+        width: 90px;
+        height: 180px;
+        margin: -30px 0;
+    }
+
+
+    /*FOOTER-------------------------------------------*/
+
+    footer{
         width: 100%;
-        height: 600px;
+        height: 170px;
+        background-color: #ff0017;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .btnescolhe{
-        width: 290px;
-        height: 40px;
-        padding: 8px;
+
+    a#acesso-footer{
+        width: 50%;
+        background-color: #ffffff;
+        color: black;
+        padding: 5px 10px;
+        margin: 20px 0;
         border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    p#footer{
+        color: #fff;
+    }
+    .legal{
+        width: 95%;
+        margin: 10px 2,5%;
+    }
+
+     /*FOOTER-------------------------------------------*/
+
+     /***************************ÁREA DA PÁGINA PÃO BOLA****************************/
+
+    header#paobola{
+        width: 100%;
+        height: 10vh;
+        background-color: #ff0017;
+        margin: 0 0 30px 0;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+        margin-left: 10px;
+    }
+    li{
+        list-style: none;
+    }
+    a.pbola{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a.pbola:hover{
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    h1.nomepao{
+        font-size: 16px;
+        color: #ff0017;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    .escolhelanche{
+        width: 100%;
+    }
+    .btnescolhe{
+        width: 70%;
+        background-color: #fbec89;
+        margin: 10px 15%;
+        color: #ff0017;
+        padding: 10px 20px;
+        font-weight: bold;
         border: none;
-        margin-bottom: 8px;
-        background-color: #FDB750;
-        font-size: 14px;
+        border-radius: 6px;
     }
     .btnescolhe:hover{
-        background-color: red;
-        color:#fff;
+        background-color: #ff0017;
+        color: #fbec89;
     }
 
     div.cardapio{
-        position: relative;
-        width: 60%;
-        height: 150px;
-        background: red;
-        border-radius: 8px;
-        margin-top: 0;
-        margin-bottom: 6px;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        display: none;
-        
+        width: 69%;
+        margin: 10px 15%;
+        background-color: #ff0017;
+        padding: 5% 0;
+        border-radius: 0 20px 0 20px ;
     }
-
-    div.cardapio-batata{
-        position: relative;
-        width: 60%;
-        height: 70px;
-        background: red;
-        border-radius: 8px;
-        margin-top: 0;
-        margin-bottom: 6px;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        display: none;
-        
-    }
-
-    div.cardapio p{
-        color:#fff;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-    }
-
     p.ingrediente{
-        width: 100%;
-        font-size: 14px;
-        font-family: Arial, Helvetica, sans-serif;
-        color:#fff;
-        margin: 20px 0 10px 0;
+        color: #fff;
+        margin-left: 6px;
+    }
+    .esconde{
+        display: none;
     }
 
-    div.lanche #cod{
-        width: 40%;
-        height: 30px;
-        background: #FAA52D;
-        color: #fff;
-        font-size: 18px;
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 10px 30%;
-        border: none;
-        border-radius: 4px;
-        padding: 5px;
+
+    .rodape{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 90px;
+        background-color: #ff0017;
+        padding: 10px 0;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+
+    /***************************ÁREA DA PÁGINA PÃO BOLA****************************/
+
+
+
+    /***************************ÁREA DA PÁGINA ADM.HTML*****************************/
+
+
+    .container-adm{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #ff0017;
+    }
+    form{
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-
-    p.versao{
-        text-align: center;
+    input{
+        width: 60%;
+        height: 30px;
+        border: none;
+        border-radius: 4px;
+        margin: 2px 0;
     }
 
-    p{
-        text-align: left;
+    .back{
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
     }
-
-    #licenca{
-        width: 40%;
-        border: none;
-        border-radius: 2px;
-        padding: 10px 0;
+    .back:hover{
+        color: #fff;
+        text-decoration: underline;
+        font-size: 18px;
     }
-    .esconder{display: none;}
 
-
-    .beneficios{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 90%;
+    #admin{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
     }
 
 
-    /*AREA DO CONTADOR DE LICENSA*/
+
+    
+    /***************************ÁREA DA PÁGINA ADM.HTML*****************************/
+
+
+    /*********************************ÁREA DA PÁGINA PLANO.HTML***********************/
 
     .countdown-container{
         width: 90%;
+        height: 60px;
         display: flex;
-        flex-direction:row;
-        /*flex-wrap: wrap;*/
-        gap:20px;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 5%;
+        gap: 10px;
+        padding-top: 1%;
+    }
+    .countdown-el{
+        width: 25%;
+        height: 50px;
+        background-color: #ff0017;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 6px;
+        color: #fff;
+    }
+
+    h4.plan{
+        margin: 10px;
+    }
+
+    .beneficios{
+        width: 90%;
+        margin: 5px 5%;
+    }
+
+    #contrate{
+        width: 90%;
+        margin: 0 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fbec89;
+        border-radius: 6px;
+
+    }
+
+    #contratar{
+        margin: 20px auto;
+        background-color: #ff0017;
+        color:#fff;
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    .back-to{
+        height: 20px;
+        margin: 5px auto;
+        background-color: #ff0017;
+        color:#fff;
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    .rodape-plano{
+        bottom: 0;
     }
     
-    .countdown-el{
-        width: 20%;
-        padding: 10px;
-        text-align: center;
-    }
-    .text{
-        font-weight: bold;
-        font-size: 16PX;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color:#ff0000;
-    }
+    /*********************************ÁREA DA PÁGINA PLANO.HTML***********************/
+
 
 
 

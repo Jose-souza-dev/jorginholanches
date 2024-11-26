@@ -8,25 +8,26 @@
 </head>
 <body>
     <main class="container">
-        <header id="cabecalho">
-            <img src="img/banner.png" alt="" id="baner">
-            <a href="https://wa.me/5585991265804">
-                <img src="img/whatsapp.svg" alt="whatsapp" id="wts" target="blank">
-            </a>
+        <header id="paobola">
+            <div class="navegue">
+                <ul>
+                    <li><a href="index.html" class="pbola">Início</a></li>
+                    <li><a href="paobola.html" class="pbola">Pão-bola</a></li>
+                    <li><a href="paoarabe.html" class="pbola">Pão-árabe</a></li>
+                    <li><a href="bebidas.html" class="pbola">Bebidas</a></li>
+                    <li><a href="batatas.html" class="pbola">Salgados</a></li>
+                </ul>
+                <br>
+            </div>
+            <div id="whats-header">
+                <a href="bebidas.html">
+                    <img src="img/whatsapp.svg" alt="" id="zap">
+                </a>
+            </div>
         </header>
 
-        <div class="navegue">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="paobola.html">Pão bola</a></li>
-                <li><a href="paoarabe.html">Pão árabe</a></li>
-                <li><a href="bebidas.html">Bebidas</a></li>
-                <li><a href="batatas.html">Salgados</a></li>
-            </ul>
-        </div>
 
-
-        <h1 class="pbola">PÃO ÁRABE</h1>
+        <h1 class="nomepao">PÃO ÁRABE</h1>
 
         <div class="lanche">
         <!--Primeiro item-->
@@ -35,20 +36,19 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div1')" value="BURGUER ÁRABE R$ 10,00">
             </div>
-            <div class="cardapio" id="div1">
+            <div class="cardapio esconde" id="div1">
                 <p class="ingrediente">
                     Carne de hambúrguer, queijo, presunto, alface, tomate, maionese e catchup.
                 </p>
 
         <!----------------------------------------------------------------------------------------------------------->
             </div><!--Fim da cardápio-->
-            <hr>
             <!--ÁRABE FRANGO-->
 
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div2')" value="ÁRABE FRANGO R$ 12,00 ">
             </div>
-            <div class="cardapio" id="div2">
+            <div class="cardapio esconde" id="div2">
                 <p class="ingrediente">
                     Carne de hamburguer, queijo, presunto, frango desfiado, alface, tomate,maionese e catchup.
 
@@ -60,7 +60,7 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div3')" value="ÁRABE TUDÃO R$ 15,00">
             </div>
-            <div class="cardapio" id="div3">
+            <div class="cardapio esconde" id="div3">
                 <p class="ingrediente">
                     Carne de hamburguer, queijo, presunto, ovo, calabresa, frango desfiado, 
                     alface, tomate, batata palha, cheddar, ctupiry, catchup e maionese. 
@@ -73,7 +73,7 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div4')" value="ÁRABE ESPOCA BUCHO R$ 20,00">
             </div>
-            <div class="cardapio" id="div4">
+            <div class="cardapio esconde" id="div4">
                 <p class="ingrediente">
                     Duas carnes de hamburguer, dois ovos, dois queijos, dois presuntos,
                     calabresa, frango desfiado, batata palha, catupiry, cheddar, alface, tomate, catchup e maionese. 
@@ -86,7 +86,7 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div5')" value="ÁRABE MISTO QUENTE R$ 7,00">
             </div>
-            <div class="cardapio" id="div5">
+            <div class="cardapio esconde" id="div5">
                 <p class="ingrediente">
                     Queijo, presunto, catupity, alface e tomate
                 </p>
@@ -98,7 +98,7 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div6')" value="ÁRABE FRANGO ESPECIAL R$ 10,00">
             </div>
-            <div class="cardapio" id="div6">
+            <div class="cardapio esconde" id="div6">
                 <p class="ingrediente">
                     Frango, queijo, catupiry e milho. 
                 </p>
@@ -110,7 +110,7 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div7')" value="ÁRABE CALABRESA ESPECIAL R$ 10,00">
             </div>
-            <div class="cardapio" id="div7">
+            <div class="cardapio esconde" id="div7">
                 <p class="ingrediente">
                     Calabresa, queijo, presunto, catupiry, alface e tomate.
                 </p>
@@ -122,7 +122,7 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div8')" value="ÁRABE BARREIRENSE R$ 12,00">
             </div>
-            <div class="cardapio" id="div8">
+            <div class="cardapio esconde" id="div8">
                 <p class="ingrediente">
                     Frango, calabresa, queijo, presunto, milho, catupiry, alface e tomate.
                 </p>
@@ -134,7 +134,7 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div9')" value="ÁRABE À MODA DA CASA R$ 14,00">
             </div>
-            <div class="cardapio" id="div9">
+            <div class="cardapio esconde" id="div9">
                 <p class="ingrediente">
                     Frango, calabresa, bacon, queijo, presunto, milho, catupiry, ovo, batata palha, alface e tomate.
                 </p>
@@ -146,7 +146,7 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div10')" value="ÁRABE BACON R$ 13,00">
             </div>
-            <div class="cardapio" id="div10">
+            <div class="cardapio esconde" id="div10">
                 <p class="ingrediente">
                     Pão árabe, carne de hambúrguer, queijo, presunto, bacon, alface, tomate, maionese e catchup. 
                 </p>
@@ -158,7 +158,7 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div11')" value="ÁRABE BACON CALABRESA R$ 15,00">
             </div>
-            <div class="cardapio" id="div11">
+            <div class="cardapio esconde" id="div11">
                 <p class="ingrediente">
                     Pão árabe, carne de hambúrguer, queijo, presunto, bacon, calabresa, alface, tomate, maionese, catchup. 
                 </p>
@@ -171,7 +171,7 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div12')" value="ÁRABE BACON FRANGO R$ 15,00">
             </div>
-            <div class="cardapio" id="div12">
+            <div class="cardapio esconde" id="div12">
                 <p class="ingrediente">
                     Pão árabe, carne de hambúrguer, queijo, presunto, bacon, frango, alface, tomate, maionese e catchup.
                 </p>
@@ -184,7 +184,7 @@
             <div class="escolhelanche">
                 <input type="button" class="btnescolhe"  onclick="toggleDiv('div13')" value="ÁRABE BACON BURGUER R$ 15,00">
             </div>
-            <div class="cardapio" id="div13">
+            <div class="cardapio esconde" id="div13">
                 <p class="ingrediente">
                     Pão árabe, carne de hambúrguer, queijo, presunto, bacon, ovo, alface, tomate, maionese e catchup.
                 </p>
@@ -199,8 +199,8 @@
         
         <div class="rodape">
             Versão 1.0.14.4  
-            <p>Todos os direitos reservados a  	&copy;josesouza</p>
-        </div>
+            <p>Todos os direitos reservados a  	&copy;FloatingFood</p>
+        </footer>
         
 
     </main>

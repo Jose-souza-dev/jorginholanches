@@ -1,3 +1,14 @@
+function toggleDiv(divId) {
+    var div = document.getElementById(divId);
+    if (div.style.display === "none" || div.style.display === "") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}
+
+
+
 // Declarando constantes relativas a dias, horas, minutos e segundos.
 // 1º vamos pegar todos os elementos lá no html
 
@@ -23,7 +34,7 @@ function countdown(){
     const mins = Math.floor(totalSeconds / 60) % 60;
     const seconds = Math.floor(totalSeconds) % 60;
 
-    daysEl.innerHTML = days;
+    daysEl.innerHTML = formatTime(days);
     hoursEl.innerHTML = formatTime(hours);
     minsEl.innerHTML = formatTime(mins);
     secondsEl.innerHTML = formatTime(seconds);
