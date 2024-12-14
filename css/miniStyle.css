@@ -238,15 +238,16 @@
     }
 
     div.cardapio{
-        width: 69%;
-        margin: 10px 15%;
+        width: 66%;
+        margin: 10px 17%;
         background-color: #000000;
-        padding: 5% 0;
+        padding: 5% 5px;
         border-radius: 0 20px 0 20px ;
     }
     p.ingrediente{
         color: #fff;
-        margin-left: 6px;
+        font-size: 16px;
+        text-align: center;
     }
     .esconde{
         display: none;
