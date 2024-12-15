@@ -1,4 +1,4 @@
-@media(min-width:500px) {
+@media(min-width:400px) {
     *{margin:0;padding:0;}
     .esconde-main{display:none;}
     .avisando{display:flex;flex-direction:column;align-items: center;justify-content: center;font-family: Arial, Helvetica, sans-serif;}
